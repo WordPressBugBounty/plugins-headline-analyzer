@@ -2,10 +2,10 @@
 Contributors: CoSchedule
 Plugin link: https://headlines.coschedule.com
 Tags: seo, headline, headline analyzer, title analyzer, analysis, headline analyzer wordpress, title, title optimization, headline optimization, WordPress SEO
-Tested up to: 6.4
+Tested up to: 6.8
 Requires at least: 5.6
 Requires PHP: 7.0
-Stable tag: 1.3.6
+Stable tag: 1.3.7
 License: GPL-2.0+
 License URI: https://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -55,6 +55,9 @@ You can analyze standard headlines in Headline Analyzer Studio for free. Premium
 == Screenshots ==
 
 == Changelog ==
+= 1.3.7 =
+* Update WordPress compatibility version
+
 = 1.3.6 =
 * security improvements
 
@@ -104,6 +107,8 @@ You can analyze standard headlines in Headline Analyzer Studio for free. Premium
 * Initial release
 
 == Upgrade Notice ==
+= 1.3.7 =
+* Update WordPress compatibility version
 
 = 1.2.5 =
 * Bugfix for Gutenberg sidebar interface.

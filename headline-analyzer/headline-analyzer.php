@@ -3,7 +3,7 @@
  * Plugin Name: Headline Analyzer
  * Plugin URI: https://headlines.coschedule.com
  * Description: A headline analyzer from CoSchedule that helps you confidently create headlines that drive maximum traffic, engagement, & SEO.
- * Version: 1.3.6
+ * Version: 1.3.7
  * Requires at least: 5.6
  * Requires PHP: 7.0
  * Author: CoSchedule

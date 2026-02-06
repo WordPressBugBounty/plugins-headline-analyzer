@@ -9,27 +9,23 @@ let HEADLINES_API_URL = '';
 let debug = false; // enables/disables verbose logging for message bus
 
 if (env === 'development') {
-  HEADLINES_APP_URL = 'http://local.coschedule.com:4200';
-  HEADLINES_API_URL = 'http://localhost:8081';
+  HEADLINES_APP_URL = 'https://local.coschedule.com:4200';
+  HEADLINES_API_URL = 'https://localhost:8081';
   debug = true;
 } else if (env === 'staging') {
   HEADLINES_APP_URL = 'https://staging-headlines.coschedule.com';
   HEADLINES_API_URL = 'https://staging-headlines-api.coschedule.com';
   debug = true;
-} else if (env === 'production') {
-  HEADLINES_APP_URL = 'https://headlines.coschedule.com';
-  HEADLINES_API_URL = 'https://headlines-api.coschedule.com';
-  debug = false;
 } else {
   HEADLINES_APP_URL = 'https://headlines.coschedule.com';
   HEADLINES_API_URL = 'https://headlines-api.coschedule.com';
-  debug = false;
 }
 
 module.exports = {
   ...defaultConfig,
   entry: {
     ...defaultConfig.entry,
+    index: path.resolve(process.cwd(), 'src', 'index.js'),
     classic: path.resolve(process.cwd(), 'src', 'classicEditor.js'),
   },
   plugins: [
